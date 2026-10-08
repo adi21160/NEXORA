@@ -1,0 +1,6 @@
+{
+  "name": "NexusAI Studio - Multi-AI Project Engine",
+  "description": "Premium multi-AI collaborative application & website builder with intelligent task decomposition, dynamic model routing, live preview sandbox, automated code integration, and self-healing test runner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

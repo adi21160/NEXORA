@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="none">
+  <defs>
+    <!-- Multi-stage Neon Emerald Glow Filter -->
+    <filter id="neon-glow-strong" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur1" />
+      <feGaussianBlur stdDeviation="8" result="blur2" />
+      <feGaussianBlur stdDeviation="18" result="blur3" />
+      <feMerge>
+        <feMergeNode in="blur3" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <radialGradient id="node-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="40%" stop-color="#00ffa3" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#00cc80" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Deep Black Canvas -->
+  <rect width="1000" height="1000" fill="#000000" />
+
+  <!-- Ambient Backdrop Glow -->
+  <circle cx="500" cy="500" r="340" fill="#00ffa3" opacity="0.06" filter="url(#neon-glow-strong)" />
+
+  <!-- Outer Silhouette & Inner Triangulated Neural Network Mesh -->
+  <g stroke="#00ffa3" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#neon-glow-strong)">
+    <!-- Outer Contour & Major Struts of 'N' -->
+    <!-- Left Stem Outer Edge -->
+    <line x1="215" y1="220" x2="215" y2="500" />
+    <line x1="215" y1="500" x2="215" y2="785" />
+
+    <!-- Top Left Cap -->
+    <line x1="215" y1="220" x2="340" y2="220" />
+    <line x1="340" y1="220" x2="450" y2="325" />
+
+    <!-- Left Lower Corner & Incline -->
+    <line x1="215" y1="785" x2="295" y2="615" />
+    <line x1="295" y1="615" x2="380" y2="615" />
+    
+    <!-- Left Inner Webbing Lines -->
+    <line x1="215" y1="220" x2="295" y2="425" />
+    <line x1="215" y1="220" x2="380" y2="375" />
+    <line x1="215" y1="500" x2="295" y2="425" />
+    <line x1="215" y1="500" x2="295" y2="575" />
+    <line x1="215" y1="785" x2="295" y2="575" />
+    
+    <line x1="295" y1="425" x2="380" y2="375" />
+    <line x1="295" y1="425" x2="380" y2="495" />
+    <line x1="295" y1="575" x2="380" y2="495" />
+    <line x1="295" y1="575" x2="380" y2="615" />
+    <line x1="380" y1="495" x2="380" y2="615" />
+
+    <!-- Central Diagonal Truss -->
+    <line x1="380" y1="375" x2="450" y2="325" />
+    <line x1="380" y1="375" x2="505" y2="495" />
+    <line x1="380" y1="495" x2="505" y2="495" />
+    <line x1="380" y1="615" x2="505" y2="495" />
+    <line x1="380" y1="615" x2="550" y2="670" />
+
+    <line x1="450" y1="325" x2="505" y2="495" />
+    <line x1="450" y1="325" x2="620" y2="495" />
+    <line x1="505" y1="495" x2="620" y2="495" />
+    <line x1="505" y1="495" x2="550" y2="670" />
+    <line x1="505" y1="495" x2="620" y2="615" />
+
+    <!-- Right Diagonal & Stem Connections -->
+    <line x1="550" y1="670" x2="620" y2="615" />
+    <line x1="550" y1="670" x2="650" y2="785" />
+    <line x1="550" y1="670" x2="705" y2="575" />
+    <line x1="650" y1="785" x2="785" y2="785" />
+    <line x1="650" y1="785" x2="705" y2="575" />
+
+    <line x1="620" y1="615" x2="620" y2="495" />
+    <line x1="620" y1="615" x2="705" y2="575" />
+    
+    <line x1="620" y1="495" x2="615" y2="385" />
+    <line x1="620" y1="495" x2="705" y2="425" />
+    <line x1="620" y1="495" x2="705" y2="575" />
+
+    <!-- Right Stem Outer & Inner Truss -->
+    <line x1="615" y1="385" x2="785" y2="220" />
+    <line x1="615" y1="385" x2="705" y2="425" />
+    
+    <line x1="785" y1="220" x2="705" y2="425" />
+    <line x1="785" y1="220" x2="785" y2="500" />
+    
+    <line x1="705" y1="425" x2="785" y2="500" />
+    <line x1="705" y1="425" x2="705" y2="575" />
+
+    <line x1="785" y1="500" x2="705" y2="575" />
+    <line x1="785" y1="500" x2="785" y2="785" />
+    <line x1="705" y1="575" x2="785" y2="785" />
+  </g>
+
+  <!-- High-Intensity Neural Node Vertices -->
+  <g fill="#00ffa3" filter="url(#neon-glow-strong)">
+    <!-- Left Edge Node -->
+    <circle cx="215" cy="500" r="14" />
+    
+    <!-- Left Internal Nodes -->
+    <circle cx="295" cy="425" r="14" />
+    <circle cx="295" cy="575" r="14" />
+    <circle cx="380" cy="375" r="14" />
+    <circle cx="380" cy="495" r="14" />
+    
+    <!-- Central Diagonal Nodes -->
+    <circle cx="450" cy="325" r="14" />
+    <circle cx="505" cy="495" r="14" />
+    <circle cx="550" cy="670" r="14" />
+    
+    <!-- Right Internal Nodes -->
+    <circle cx="620" cy="495" r="14" />
+    <circle cx="620" cy="615" r="14" />
+    <circle cx="705" cy="425" r="14" />
+    <circle cx="705" cy="575" r="14" />
+    
+    <!-- Right Edge Node -->
+    <circle cx="785" cy="500" r="14" />
+  </g>
+
+  <!-- Bright Core White Pips on Vertices for realistic neon bulb effect -->
+  <g fill="#ffffff">
+    <circle cx="215" cy="500" r="5" />
+    <circle cx="295" cy="425" r="5" />
+    <circle cx="295" cy="575" r="5" />
+    <circle cx="380" cy="375" r="5" />
+    <circle cx="380" cy="495" r="5" />
+    <circle cx="450" cy="325" r="5" />
+    <circle cx="505" cy="495" r="5" />
+    <circle cx="550" cy="670" r="5" />
+    <circle cx="620" cy="495" r="5" />
+    <circle cx="620" cy="615" r="5" />
+    <circle cx="705" cy="425" r="5" />
+    <circle cx="705" cy="575" r="5" />
+    <circle cx="785" cy="500" r="5" />
+  </g>
+</svg>
